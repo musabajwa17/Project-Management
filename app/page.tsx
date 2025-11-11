@@ -28,7 +28,7 @@ export default function Page() {
 
   return (
     <main className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Mini Project Manager</h1>
+      <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4 ms-12">Mini Project Manager</h1>
 
       <ProjectForm
         onCreated={(updated) => {
